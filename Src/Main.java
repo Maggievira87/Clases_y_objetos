@@ -30,7 +30,7 @@ public class Main {
         };
 
         for (Empleado e : empleados) {
-            e.mostrarInfo(); // polimorfismo
+            e.mostrarInfo(); // polimorfismo Actividad
         }
 
         System.out.println("\nTotal empleados: " + Empleado.getTotalEmpleados());
